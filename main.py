@@ -13,7 +13,7 @@ import time
 
 # Load environment variables and configure
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyB798GofH8tgcotUrXYu1Wf38AA_XTisYM")
 
 # Set page configuration
 st.set_page_config(
